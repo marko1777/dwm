@@ -1,13 +1,13 @@
 # Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
 pkgname=dwm-distrotube-git
-pkgver=6.2.r55.8fc0341
+pkgver=6.2.r63.6b49796
 pkgrel=1
 pkgdesc="A heavily-patched and customized build of dwm from DistroTube."
 arch=(x86_64)
-url="https://gitlab.com/dwt1/dwm-distrotube.git"
+url="https://github.com/marko1777/dwm"
 license=('MIT')
 groups=()
-depends=(libx11 libxinerama ttf-hack ttf-joypixels freetype2 st dmenu libxft-bgra-git dwmblocks-distrotube-git)
+depends=(libx11 libxinerama ttf-hack ttf-joypixels freetype2 st dmenu dwmblocks-distrotube-git)
 makedepends=(make)
 checkdepends=()
 optdepends=(surf)
